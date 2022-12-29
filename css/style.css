@@ -1,0 +1,210 @@
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');  
+*{
+    margin: 0;
+    padding: 0; 
+}
+:root {
+    --main-bg-color:  #4f8df0;
+  }
+  body header{
+    top: 0%;
+  }
+header{
+    position: fixed;
+    
+    display:    inline;
+    margin-top: 0vh;
+     width: 100%;
+
+    display: flex;
+    height: 9vh;
+     background-color: var(--main-bg-color);
+    justify-content:  first baseline;
+    align-items: center;
+    border: red groove;
+ 
+}
+nav{
+    display: flex;
+    /* align-items: center;
+    justify-content:  center; */
+
+}
+nav :hover {
+    color: black;
+    font-weight: bold;
+  }
+.logo img  {
+ width: 114px;
+ height: 29.517px;
+ padding: 0 25px;
+width: 88px;
+ }
+   
+.logo{
+     
+    /* align-items: center; */
+    /* width: 114px;
+    height: 29.517px;     */
+ }
+nav ul {
+    display:   flex;
+    justify-content: center;
+    
+
+}
+nav ul li { 
+    list-style: none;
+    color: rgb(255, 255, 255);
+    
+}
+nav ul li a { 
+     color: aliceblue; 
+     text-decoration: none;
+     padding: 3vw;
+
+  }
+  .contact {
+    position: relative;
+       height: 2.5vw;
+      width: 9vw;
+       color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+margin-left: 23px;
+    width: 5vw;
+ color:  aliceblue;
+ border-radius: 5px  ;
+ cursor: pointer;
+  
+     /* border: red groove; */
+    animation: widthAnimate .5s  ease-in-out 1s 2  alternate;
+}
+
+
+@keyframes widthAnimate {
+
+    0%{
+        /* transform-origin: 0%; */
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+     }
+    100%{
+        transform: rotate(360deg);
+     }
+}
+  
+  .contact contact{
+    margin: auto;
+    background-color: black;
+    color: rgb(0, 0, 0);
+  }
+  .contact contact:hover{
+     color: rgb(255, 255, 255);
+  }
+  .searchbox{
+    display: flex;
+     
+  }
+  .searchbox input {
+    height: 4vh;
+    width: 30vw;
+    border: 2px rgb(0, 0, 0) groove ;
+    border-radius: 2px;
+    margin-left: 45px;
+    padding: 1vh;
+    
+  }
+
+
+/* Element | http://127.0.0.1:5500/flipcart_project/index.html */
+
+
+/* Element | http://127.0.0.1:5500/flipcart_project/index.html */
+
+body > header:nth-child(1) > p:nth-child(2) > img:nth-child(1) {
+    margin-left: -62px;
+    border-top-width: 0px;
+    border-top-style: solid;
+    width: 29px;
+    padding-left: 28px;
+    height: 28px;
+  }
+  
+.btn{
+    
+    margin-left: 23px;
+    width: 5vw;
+height: 2.5vw;
+background: black;
+color:  aliceblue;
+ border-radius: 5px;
+ cursor: pointer;
+}  
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight:  var(--main-bg-color);
+    border:  rgb(255, 0, 0) 6px;
+}
+  
+  main{
+    margin-top: 15vh;
+     font-family: 'Open Sans', sans-serif;
+
+  }
+  .container{
+    min-height: 78vh;
+  }
+  .slider{
+    display:  flex;
+    margin-left: 18vw;
+ padding-left: 0px;
+margin-top: 9px;
+border-top-width: 2px;
+ border-color: deeppink;
+   }
+   .cards{
+    /* display: flex; */
+    margin: auto;
+     max-width: 91vw;
+    margin-top: 15vh;
+    
+   }
+   .card-iteams {
+    margin-top: 12px;  
+      /* padding: 4vw; ; */
+    display:      flex;
+    align-items: center;
+    justify-items: center;
+    justify-content:  space-around;
+
+   }
+
+footer{
+    display: flex;
+    height: 10vh;
+     background-color:  var(--main-bg-color);
+    color: aliceblue;
+    justify-content:  space-around;
+    align-items:  center;
+    font-family: 'Open Sans', sans-serif;
+    border: red groove;
+
+     
+
+}
+.email{
+    color: white;
+}
+
+ 
+/* Element | http://127.0.0.1:5500/flipcart_project/index.html */
+
+.slider > img:nth-child(1) {
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-left: -88px;
+  }
+  
